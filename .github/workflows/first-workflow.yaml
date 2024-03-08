@@ -13,7 +13,7 @@ jobs:
                 npm -v
 
     parallel-job-macros:
-      runs-on: macro-latest
+      runs-on: macos-latest
       steps: 
         - name: View SW Version
           run: sw_vers
@@ -25,4 +25,4 @@ jobs:
         - name: echo a string 
           run: Write-Output "Windows String"
         - name: Error Step
-          run: doesnotexis
+          run: doesnotexisss
