@@ -9,6 +9,5 @@ jobs:
               run: echo "Hello World"
             - name: Multiline Command 
               run: |
-                name -v
+                node -v
                 npm -v
-                
