@@ -13,7 +13,7 @@ jobs:
                 npm -v
 
     parallel-job-macros:
-      runs-on: macro-lates
+      runs-on: macro-latest
       steps: 
         - name: View SW Version
           run: sw_vers
