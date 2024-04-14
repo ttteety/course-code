@@ -1,5 +1,5 @@
 name: Random Joke
-authour: Atit Annie
+author: Atit Annie
 description: Generate a random joke and send it to slack
 inputs:
   slack_username:
