@@ -31082,6 +31082,7 @@ const core = __nccwpck_require__(2217)
 const github = __nccwpck_require__(3973)
 
 try {
+    throw new Error("Some error message")
     core.debug('Debug Message')
     core.warning('Warning Message')
     core.error('Error Message')
@@ -31089,7 +31090,7 @@ try {
 
     const name = core.getInput("who_to_greet");
 
-    console.log(`Hello $name}`)
+    console.log(`Hello ${name}`)
 
     const time = new Date()
     core.setOutput("time", time.toTimeString())
