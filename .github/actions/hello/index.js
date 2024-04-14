@@ -9,7 +9,7 @@ try {
 
     const name = core.getInput("who_to_greet");
 
-    console.log(`Hello $name}`)
+    console.log(`Hello ${name}`)
 
     const time = new Date()
     core.setOutput("time", time.toTimeString())
